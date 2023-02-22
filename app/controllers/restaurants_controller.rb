@@ -1,5 +1,4 @@
-class ApplicationController < ActionController::Base
-
+class RestaurantsController < ApplicationController
   def index
     @restaurants = Restaurant.all
   end
